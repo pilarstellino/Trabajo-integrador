@@ -23,7 +23,7 @@
 }
 
 .firstbody { 
-background-color: white;
+background-color: black;
 
 }
 
@@ -39,7 +39,7 @@ background-color: white;
 }
 
 .logodivgeneral { 
-color: black;
+color:black;
 font-size: 18px;
 font-weight: lighter;
 text-decoration: none;
@@ -57,7 +57,7 @@ size: 20px;
 
 .img1 {
     width: 200px;
-    height: 190px;
+    height: 250px;
     padding-left: 0.4cm;
     padding-right: 0.4cm;
 
@@ -95,7 +95,7 @@ font-weight: lighter;
  .textodescripcion {
 font-size: 15px;
 text-decoration: none;
-color:black;
+color:white;
 margin-left: 1.5cm;
 
  }
