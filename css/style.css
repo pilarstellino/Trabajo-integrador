@@ -223,10 +223,11 @@ body{
         padding: 20px;
         background-color: #fff;
         border-radius: 8px;
+
     }
     .cotenedorpadre h1{
-        text-align: center;
-        color: #333;
+        text-align:center;
+        color : #333;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
     
@@ -237,17 +238,16 @@ body{
         margin-bottom: 20px;
     } 
     .productos img {
-        width: 100%;
-        height: auto;
         border-radius: 4px;
     }
     
     .productos p {
+   
     color: #555;
-    font-size: 14px;
+    font-size: 16px;
     }
     
-    
+
     .divsection1{
         width: 300px;
         color: black;
