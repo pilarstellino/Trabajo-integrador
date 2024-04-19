@@ -1,4 +1,4 @@
-
+/*index*/
 .header {
   background-color: rgb(10, 9, 9);  
   width: 100%;
@@ -131,7 +131,7 @@ text-decoration: none;
 color:black;
 margin-left: 1.5cm;
 
- }
+}
 
 
  /*carrito*/
@@ -214,11 +214,11 @@ body{
 .contenedorpadre  h1{
     color: #000000;
     font-size: 24px;
-    margin-bottom: 30px;  
+    margin-bottom: auto;  
 }
 
 .contenedorpadre img{
-    width: 600px;
+    width: 300px;
     align-items: center;
 }
 
@@ -250,16 +250,17 @@ body{
 
 
     /*categoria*/
-    .contenedorpadrer{
+    .contenedorpadre{
         max-width: 800px;
         margin: 20px auto;
         padding: 20px;
         background-color: #fff;
         border-radius: 8px;
+
     }
     .cotenedorpadre h1{
-        text-align: center;
-        color: #333;
+        text-align:center;
+        color : #333;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
     
@@ -270,17 +271,16 @@ body{
         margin-bottom: 20px;
     } 
     .productos img {
-        width: 100%;
-        height: auto;
         border-radius: 4px;
     }
     
     .productos p {
+   
     color: #555;
-    font-size: 14px;
+    font-size: 16px;
     }
     
-    
+
     .divsection1{
         width: 300px;
         color: black;
