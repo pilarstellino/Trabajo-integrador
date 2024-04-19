@@ -98,5 +98,51 @@ text-decoration: none;
 color:black;
 margin-left: 1.5cm;
 
- }
+}
 
+.forms{
+   width: 300px;
+   padding: 20px;
+   border: 1px solid white;
+   border-radius: 5px;
+   background-color: white;
+   margin-top: auto;
+   margin-bottom: auto;
+}
+
+#grupo{
+    background-color:EBDEF0;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background-color:#F5EEF8;
+}
+@media (max-width:420px) {
+    body{
+        background-color: #EAFAF1;
+        font-size: 14px;
+    }
+
+img{
+    margin: 0 auto;
+    display: block;
+}
+
+.header{
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+
+
+
+
+
+}
