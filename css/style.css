@@ -1,4 +1,4 @@
-/*index*/
+
 .header {
   background-color: rgb(10, 9, 9);  
   width: 100%;
@@ -9,6 +9,7 @@
   text-decoration: none;
     
 }
+
 
 
 .homepic{
@@ -22,7 +23,7 @@ height: 80%
     flex-wrap: wrap;
     justify-content:center; 
     background-color: whitesmoke;
-    width: 100%;
+    width: 500%;
     height: 150px;
   }
 
@@ -84,7 +85,9 @@ size: 20px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-between; 
+    align-content: flex-start;
+    
 
 }
 
@@ -107,7 +110,7 @@ font-weight: lighter;
 .ropa1 {
     font-size: 20;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-left: 1cm;
+    margin-left: 0,5cm;
 }
 
 .div1 {
