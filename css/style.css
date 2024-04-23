@@ -196,6 +196,8 @@ size: 20px;
     flex-direction: column;
     margin-left: 400px;
 }
+
+
 /*producto*/
 
 body{
@@ -258,33 +260,27 @@ body{
     size: 20px;
     }
 
-
     /*categoria*/
-  
     
-    .contenedorpadre{
-        max-width: 800px;
+    .titulos{
+        text-align: center;
+        margin-left: auto;
+    }
+
+    .Categoria{
+        max-width: 1000px;
         margin: 20px auto;
         padding: 20px;
         background-color: #fff;
         border-radius: 8px;
-
-    }
-    .cotenedorpadre h1{
-        text-align:center;
-        color : #333;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    }
-    
-    .productos{
         display: flex;
         flex-wrap: wrap;
-        width: 180px;
-        text-align: center;
-        margin-bottom: 20px;
-    } 
+        Flex-direction: row;
+    }
     
-    .productos img {
+    .Categoria img {
+        width: 180px;
+        height: 200px;
         border-radius: 4px;
     }
     
@@ -316,8 +312,11 @@ body{
         size: 20px;
         }
 
-
-
+@media (max-width:500px) {
+    .titulocategoria
+    margin-left: 85%;
+}
+ 
 
 
 
