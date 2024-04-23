@@ -30,7 +30,7 @@ height: 80%
     flex-wrap: wrap;
     justify-content:center; 
     background-color: gainsboro;
-    margin: 3cm;
+    margin: right: 3cm;
     
 }
 
@@ -319,42 +319,8 @@ body{
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         size: 20px;
         }
-    .forms{
-        width: 300px;
-        padding: 20px;
-        border: 1px solid whitesmoke;
-        border-radius: 5px;
-        background-color: whitesmoke;
-        margin-top: auto;
-        margin-bottom: auto;
-    }
-    
-    #grupo{
-        background-color:#EBDEF0;
-        height: 100vh;
-        margin: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-footer{
-    background-color: whitesmoke;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-}
 
-  
-.header{
-    display: flex;
-   ;
-    
+@media (max-width:500px) {
+    .titulocategoria
+    margin-left: 85%;
 }
-
-.logo img{
-    max-width: 100px;
-}
-    
