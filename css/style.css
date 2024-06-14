@@ -1,361 +1,367 @@
-
 .header {
-  background-color: rgb(10, 9, 9);  
-  width: 100%;
-  height: 70px;
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: right;
-  text-decoration: none;
-    
-}
-
-
-.loginregister {
-   color: white;
-   margin-left: 1cm;
-   margin-top: 0.5cm;
-}
-
-
-
-.homepic{
-
-width: 100%;
-height: 80%
-}
-
-.textfooter {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:center; 
-    background-color: gainsboro;
-    margin: 3cm;
-    
-}
-
-.footer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: gainsboro;
-    width: 275%;
-    height: 300%;
-  }
-
-
-.logo{
-
-    justify-content: right;
-    margin-right: 1cm;
-}
-
-.slogan{
-
-    font-size: large;
-    color: white;
-   
-
-}
-
-.Login { 
-    font-size: 17px;
-    color: white;
-    font-weight: bold;
-    justify-content: left;
-}
-
-.register { 
-    font-size: 17px;
-    color: white;
-    font-weight: bold;
-    justify-content: left;
-}
-
-
-
-.firstbody { 
-background-color:white;
-
-}
-
-.divsection1{
-    width: 250px;
-    color: black;
-    background-color: white;
-    justify-content: space-between;
-    height: 3000px;;
-    text-decoration: none;
-    clear: both;
-   
-}
-
-.logodivgeneral { 
-color: black;
-font-size: 18px;
-font-weight: lighter;
-text-decoration: none;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-size: 20px;
-}
-
-.section1 {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    
-}
-
-.img1 {
-    width: 180px;
-    height: 200px;
-    padding-left: 0.4cm;
-    
-
-}
-
-.prendas { 
-font-size: 20px;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-justify-content: center;
-margin-left: 1.5cm;
-font-weight: lighter;
-}
-
-.ropa1 {
-    font-size: 20;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-left: 1cm;
-}
-
-.div1 {
-    padding-left: 1cm;
-    display: flex;
-    flex-wrap: wrap;
-    text-decoration: none;
- }
-
- .textotitulos {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 20px;
-    text-decoration: none;
-    color: black;
-    
- }
-
- .textodescripcion {
-font-size: 15px;
-text-decoration: none;
-color:black;
-margin-left: 1cm;
-
-}
-
-
-
-.carrito h1{
-    text-align:center;
-    font: arial;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-
-}
-
-.producto {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-}
-
-.producto img {
-    width: 200px;
-    height: auto;
-    margin-right: 20px;
-}
-
-.descripcion .nombre .precio{
-    margin: 0;
-    font-size: 16px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-}
-
-.divsection1{
-    width: 300px;
-    color: black;
-    background-color: rgb(232, 230, 226);
-    justify-content: space-between;
-    height: 1600px;
-    text-decoration: none;
-    clear: both;
-    float: left;
-}
-
-.logodivgeneral { 
-color: black;
-font-size: 18px;
-font-weight: lighter;
-text-decoration: none;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-size: 20px;
-}
-
-.contenedorpadre{
-    display: flex;
-    flex-direction: column;
-    margin-left: 400px;
-}
-
-
-/*producto*/
-
-body{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
-    background-color: #f8f9fa;
-    margin: 0;
-    padding: 0;
-    color:#343a40 ;
-}
-.contenedorpadre {
-    display: flex;
-    flex-direction: column;
-    max-width: 1200px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #fff;
-
-}
-
-.contenedorpadre h1{
-    color: #000000;
-    font-size: 24px;
-    margin-bottom: auto;  
-}
-
-.contenedorpadre img{
-    width: 300px;
-    align-items: center;
-}
-
-.divsection1{
-    width: 300px;
-    color: black;
-    background-color: rgb(232, 230, 226);
-    justify-content: space-between;
-    height: 1600px;
-    text-decoration: none;
-    clear: both;
-    float: left;
-}
-
-.productos {
-    color: #555;
-    font-size: 16px;
-
-}
-
-.logo{
-
-    justify-content: left;
-    margin-right: 70%;
-}
-
- .logodivgeneral { 
-    color: black;
-    font-size: 18px;
-    font-weight: lighter;
-    text-decoration: none;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    size: 20px;
-    }
-
-    /*categoria*/
-    
-    .titulos{
-        text-align: center;
-        margin-left: auto;
-    }
-
-    .Categoria{
-        max-width: 1000px;
-        margin: 20px auto;
-        padding: 20px;
-        background-color: #fff;
-        border-radius: 8px;
-        display: flex;
-        flex-wrap: wrap;
-        Flex-direction: row;
-    }
-    
-    .Categoria img {
-        width: 180px;
-        height: 200px;
-        border-radius: 4px;
-    }
-    
-
-    .divsection1{
-        width: 300px;
-        color: black;
-        background-color: grey;
-        justify-content: space-between;
-        height: 2200px;
-        text-decoration: none;
-        clear: both;
-        float: left;
-    }
-    
-    .logo{
-    
-        justify-content: left;
-        margin-right: 70%;
-    }
-    
-    .logodivgeneral { 
-        color: black;
-        font-size: 18px;
-        font-weight: lighter;
-        text-decoration: none;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        size: 20px;
-        }
-    .forms{
-        width: 300px;
-        padding: 20px;
-        border: 1px solid whitesmoke;
-        border-radius: 5px;
-        background-color: whitesmoke;
-        margin-top: auto;
-        margin-bottom: auto;
-        margin-top: 20px;
-    }
-    
-    #grupo{
-        background-color:#EBDEF0;
-        height: 100vh;
-        margin: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-footer{
-    background-color: whitesmoke;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    left: 0;
-    bottom: 0;
+    background-color: white(10, 9, 9);  
     width: 100%;
+    height: 70px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: right;
+    text-decoration: none;
+      
+  }
+  
+  
+  .loginregister {
+     color: white;
+     margin-left: 1cm;
+     margin-top: 0.5cm;
+  }
+  
+  
+.headerlow {
+    background-color: rgb(55, 55, 55);
+    color: black;
+    padding: 10px;
 }
 
-.logo img{
-    max-width: 100px;
-
+.headerlow nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
 }
 
-@media (min-width:768px) {
-body{
-    font-size: 18px;
+.headerlow nav ul li {
+    margin: 0 10px;
 }
 
+.headerlow nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+  
+  .homepic{
+  
+  width: 100%;
+  height: 80%
+  }
+  
+ 
+  
+  .logo{
+  
+      justify-content: right;
+      margin-right: 1cm;
+  }
+  
+  .slogan{
+  
+      font-size: large;
+      color: black;
+      
+     
+  
+  }
+  
+  .Login { 
+      font-size: 17px;
+      color: white;
+      font-weight: bold;
+      justify-content: left;
+  }
+  
+  .register { 
+      font-size: 17px;
+      color: white;
+      font-weight: bold;
+      justify-content: left;
+  }
+  
+  
+  
+  .firstbody { 
+  background-color:white;
+  
+  }
+  
+  .divsection1{
+      width: 255px;
+      color: black;
+      background-color: white;
+      justify-content: space-between;
+      height: 3500px;;
+      text-decoration: none;
+      clear: both;
+     
+  }
+  
+  .logodivgeneral { 
+  color: black;
+  font-size: 18px;
+  font-weight: lighter;
+  text-decoration: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  size: 20px;
+
+  }
+  
+  .section1 {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      
+  }
+  
+  .img1 {
+      width: 180px;
+      height: 200px;
+      padding-left: 0.4cm;
+      
+  
+  }
+  
+  .prendas { 
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  justify-content: center;
+  margin-left: 1.5cm;
+  font-weight: lighter;
+  }
+  
+  .ropa1 {
+      font-size: 20;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      margin-left: 1cm;
+  }
+  
+  .div1 {
+      padding-left: 1cm;
+      display: flex;
+      flex-wrap: wrap;
+      text-decoration: none;
+   }
+  
+   .textotitulos {
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size: 25px;
+      text-decoration: none;
+      color: black;
+      
+   }
+  
+   .textodescripcion {
+  font-size: 15px;
+  text-decoration: none;
+  color:black;
+  margin-left: 1cm;
+  
+  }
+  
+  
+  
+  .carrito h1{
+      text-align:center;
+      font: arial;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+  
+  }
+  
+  .producto {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+  }
+  
+  .producto img {
+      width: 200px;
+      height: auto;
+      margin-right: 20px;
+  }
+  
+  .descripcion .nombre .precio{
+      margin: 0;
+      font-size: 16px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+  }
+  
+  .divsection1{
+      width: 300px;
+      color: black;
+      background-color: rgb(232, 230, 226);
+      justify-content: space-between;
+      height: 1600px;
+      text-decoration: none;
+      clear: both;
+      float: left;
+  }
+  
+  .logodivgeneral { 
+  color: black;
+  font-size: 18px;
+  font-weight: lighter;
+  text-decoration: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  size: 20px;
+  }
+  
+  .contenedorpadre{
+      display: flex;
+      flex-direction: column;
+      margin-left: 400px;
+  }
+  
+  
+  /*producto*/
+  
+  body{
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
+      background-color: #f8f9fa;
+      margin: 0;
+      padding: 0;
+      color:#343a40 ;
+  }
+  .contenedorpadre {
+      display: flex;
+      flex-direction: column;
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+  
+  }
+  
+  .contenedorpadre h1{
+      color: #000000;
+      font-size: 24px;
+      margin-bottom: auto;  
+  }
+  
+  .contenedorpadre img{
+      width: 300px;
+      align-items: center;
+  }
+  
+  .divsection1{
+      width: 300px;
+      color: black;
+      background-color: rgb(232, 230, 226);
+      justify-content: space-between;
+      height: 1600px;
+      text-decoration: none;
+      clear: both;
+      float: left;
+  }
+  
+  .productos {
+      color: #555;
+      font-size: 16px;
+  
+  }
+  
+  .logo{
+  
+      justify-content: left;
+      margin-right: 70%;
+  }
+  
+   .logodivgeneral { 
+      color: black;
+      font-size: 18px;
+      font-weight: lighter;
+      text-decoration: none;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      size: 20px;
+      }
+  
+      /*categoria*/
+      
+      .titulos{
+          text-align: center;
+          margin-left: auto;
+      }
+  
+      .Categoria{
+          max-width: 1000px;
+          margin: 20px auto;
+          padding: 20px;
+          background-color: #fff;
+          border-radius: 8px;
+          display: flex;
+          flex-wrap: wrap;
+          Flex-direction: row;
+      }
+      
+      .Categoria img {
+          width: 180px;
+          height: 200px;
+          border-radius: 4px;
+      }
+      
+  
+      .divsection1{
+          width: 300px;
+          color: black;
+          background-color: grey;
+          justify-content: space-between;
+          height: 2200px;
+          text-decoration: none;
+          clear: both;
+          float: left;
+      }
+      
+      .logo{
+      
+          justify-content: left;
+          margin-right: 70%;
+      }
+      
+      .logodivgeneral { 
+          color: black;
+          font-size: 18px;
+          font-weight: lighter;
+          text-decoration: none;
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          size: 20px;
+          }
+      .forms{
+          width: 300px;
+          padding: 20px;
+          border: 1px solid whitesmoke;
+          border-radius: 5px;
+          background-color: whitesmoke;
+          margin-top: auto;
+          margin-bottom: auto;
+          margin-top: 20px;
+      }
+      
+      #grupo{
+          background-color:#EBDEF0;
+          height: 100vh;
+          margin: 0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+  
+  .logo img{
+      max-width: 100px;
+  
+  }
+  
+  @media (min-width:768px){
+  body{
+      font-size: 18px;
+  }
+}
+  
+  
+/*Estilos para el footer*/
+
+.nombres {
+    text-align: center;
+    background-color: rgb(55, 55, 55);
+    color: white;
+    height: 150px;
+    align-content: center;
 }
