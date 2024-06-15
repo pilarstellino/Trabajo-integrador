@@ -324,16 +324,7 @@
           font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
           size: 20px;
           }
-      .forms{
-          width: 300px;
-          padding: 20px;
-          border: 1px solid whitesmoke;
-          border-radius: 5px;
-          background-color: whitesmoke;
-          margin-top: auto;
-          margin-bottom: auto;
-          margin-top: 20px;
-      }
+      
       
       #grupo{
           background-color:#EBDEF0;
@@ -358,10 +349,59 @@
   
 /*Estilos para el footer*/
 
-.nombres {
+footer.nombres {
+    font-family: montserrat;
     text-align: center;
     background-color: rgb(55, 55, 55);
     color: white;
     height: 150px;
     align-content: center;
+    margin-top: auto;
+}
+
+/*estilos para forms*/
+body.forms{
+    background-color: #EAECEE;
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario {
+    position: absolute; 
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background-color: white;
+    border-radius: 10px; 
+    padding: 40px; 
+    width: 400px;
+  }
+ 
+  .formulario form{
+    margin: 20px 0; 
+    position: relative; 
+    border-bottom: 2px solid #adadad ; 
+    margin: 30px 0;
+ }
+
+ .formulario h1{
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+}
+
+.enviar{
+    background-color:rgb(55, 55, 55); 
+    border: none;
+    color: white; 
+    padding: 10px 20px;
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-weight: bold;
+    margin: 4px 2px; 
 }

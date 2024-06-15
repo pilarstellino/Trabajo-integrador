@@ -3,63 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>login</title>
-     <link rel="stylesheet" href="./css/style.css">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-  </head>
-
-<body id="grupo">
-  <div class="forms">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="forms">
+  <div class="formulario">
+<h1>iniciar sesion</h1>
 <form action="index.html" method="post">
-  
-    <header>
-      <div class="logo">
-        <img src="./img/L.png">
-      </div>
-  <div>
-<h2>Se parte de nuestro team!</h2>
-<h3>Vita Aeternum</h3>
+  <div class="email">
+    <label for="email">email</label>
+      <input type="email"requerid  placeholder="ejemplo@gmail.com"  name="email">
   </div>
-</header>
-  <div>
-      <label>Nombre de usuario</label>
-  <input type="email" required />
+
+<div class="contraseña">
+  <label for="password">contraseña</label>
+    <input type="password" required name="contraseña">
+</div>
+<button type="submit" value="ingresar"  class="enviar">
+  ingresar
+</button>
+
+<div class="recuperar">
+  no tengo una <a href="register.html">cuenta</a>
   </div>
-  <div>
-<label>Contraseña:</label>
-<input type="password"
- required />
-  
-  </div>
-  <div>
-    <button type="submit">
-        ingresar
-    </button>
-    
+  <div class="recuperar">
+    recuperar<a href="recover.html">contraseña</a>
     </div>
-    
+  
 
-  <div>
-<label> no tengo cuenta:</label>
-<a href="./register.html">
- crear cuenta
-</a>
+  </form>
 </div>
 
-<div>
-<label>olvide mi contraseña</label>
-<a href="recover.html">
-    recuperar contraseña
-</a>
-</div>
-    </form>
   </div>
-
-    <footer>
-     <p>Gracias por enviar tu respuesta!  contacto:+54 11 4419-7277</p>
-      
-    </footer>
-  
+  <footer class="nombres">
+    <h3>Pilar Stellino & Luzmila Centurion <br> Zadig & Voltaire</h3>
+  </footer>  
 </body>
-  
 </html>
