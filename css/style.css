@@ -359,7 +359,8 @@ footer.nombres {
     margin-top: auto;
 }
 
-/*estilos para forms*/
+/*Estilos para los forms*/
+
 body.forms{
     background-color: #EAECEE;
     margin: 0;
@@ -378,7 +379,7 @@ body.forms{
     background-color: white;
     border-radius: 10px; 
     padding: 40px; 
-    width: 400px;
+    width: 300px;
   }
  
   .formulario form{
