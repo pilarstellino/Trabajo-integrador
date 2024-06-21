@@ -9,15 +9,15 @@
 <body class="forms">
   <div class="formulario">
 <h1>iniciar sesion</h1>
-<form action="index.html" method="post">
+<form action="index.html" method="post" id="loginForm">
   <div class="email">
     <label for="email">email</label>
-      <input type="email" required  placeholder="ejemplo@gmail.com"  name="email">
+      <input type="email"  placeholder="ejemplo@gmail.com"  name="email" id="loginEmail">
   </div>
 
 <div class="contraseña">
   <label for="password">contraseña</label>
-    <input type="password" required name="contraseña">
+    <input type="password" name="contraseña" id="loginContraseña">
 </div>
 <button type="submit" value="ingresar"  class="enviar">
   ingresar
@@ -39,6 +39,7 @@
   </div>
   <footer class="nombres">
     <h3>Pilar Stellino & Luzmila Centurion <br> Zadig & Voltaire</h3>
-  </footer>  
+  </footer>
+  <script src="./js/login.js"></script>  
 </body>
 </html>
