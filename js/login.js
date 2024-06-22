@@ -2,7 +2,7 @@ let formulario = document.querySelector("#loginForm");
 if (formulario) {
     let email = document.querySelector("#loginEmail");
     let contraseña = document.querySelector("#loginContraseña");
-    formulario.addEventListener("submit", function(event) {
+        formulario.addEventListener("submit", function(event) {
        event.preventDefault();
         if(email.value === "") {
             alert("Por favor complete el campo email");
@@ -14,8 +14,7 @@ if (formulario) {
 
         } else {
             localStorage.setItem('emailUsuario', email.value);
-
-            document.location.href = "index.html"; 
+            window.location.href = "index.html"; 
         }
     });
 }

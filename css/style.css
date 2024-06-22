@@ -1,22 +1,28 @@
-.header {
+.header{
     background-color: white(10, 9, 9);  
     width: 100%;
     height: 70px;
     display: flex;
     flex-wrap: nowrap;
-    justify-content: right;
+    justify-content: flex-start;
     text-decoration: none;
+    align-items: center;
+    padding-right: 1cm;
+
       
-  }
-  
-  
-  .loginregister {
-     color: white;
-     margin-left: 1cm;
-     margin-top: 0.5cm;
-  }
-  
-  
+}
+.loginRegister{
+    margin-left: 10px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       }
+       .logo{
+        position: absolute; 
+        margin-left: 80%;
+        height: 30%;
+
+      }
+      
+   
 .headerlow {
     background-color: rgb(55, 55, 55);
     color: black;
@@ -44,38 +50,12 @@
   width: 100%;
   height: 80%
   }
-  
- 
-  
-  .logo{
-  
-      justify-content: right;
-      margin-right: 1cm;
-  }
-  
+
   .slogan{
   
       font-size: large;
       color: black;
-      
-     
-  
   }
-  
-  .Login { 
-      font-size: 17px;
-      color: white;
-      font-weight: bold;
-      justify-content: left;
-  }
-  
-  .register { 
-      font-size: 17px;
-      color: white;
-      font-weight: bold;
-      justify-content: left;
-  }
-  
   
   
   .firstbody { 
