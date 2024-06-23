@@ -1,4 +1,4 @@
-.header{
+.head{
     background-color: white(10, 9, 9);  
     width: 100%;
     height: 70px;
@@ -6,22 +6,22 @@
     flex-wrap: nowrap;
     justify-content: flex-start;
     text-decoration: none;
-    align-items: center;
-    padding-right: 1cm;
-
-      
-}
-.loginRegister{
-    margin-left: 10px;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-       }
-       .logo{
-        position: absolute; 
-        margin-left: 80%;
-        height: 30%;
-
+    padding: 10px;
+    
       }
-      
+
+      .loginRegister{
+        margin-left: 10px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+           }
+           .logo{
+            position: relative; 
+          display: block;
+         
+         margin: 0 auto;
+         height: auto;
+          }
+
    
 .headerlow {
     background-color: rgb(55, 55, 55);
