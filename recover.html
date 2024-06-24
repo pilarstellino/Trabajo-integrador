@@ -10,14 +10,14 @@
 
     <div class="formulario">
         <h1>recuperar contraseña</h1>
-        <form action="index.html" method="post">
+        <form action="index.html" method="post" id="formRecover">
         <div class="email">
             <label for="email">email</label>
-              <input type="email" required placeholder="ejemplo@gmail.com" name="email">
+              <input type="email"  placeholder="ejemplo@gmail.com" name="email" id="emailRecover">
           </div>
           <div class="checkbox">
             <label>
-              <input type="checkbox" required name="recuperar">
+              <input type="checkbox" name="condiciones" id="terminosRecover">
              quiero recuperar mi contraseña
             </label>
             </div>
@@ -28,10 +28,13 @@
 
 
         </form>
+        <div id="mensaje"></div>
     </div>
 
     <footer class="nombres">
         <h3>Pilar Stellino & Luzmila Centurion <br> Zadig & Voltaire</h3>
-      </footer>  
+      </footer> 
+      <script src="./js/recover.js"></script>  
+ 
 </body>
 </html>
