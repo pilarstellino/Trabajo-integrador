@@ -1,4 +1,5 @@
-let form = document.querySelector("#registerForm");
+window.addEventListener("load", function(){
+    let form = document.querySelector("#registerForm");
     let errorDiv = document.getElementById("error");
      errorDiv.style.color = "red"
 
@@ -33,3 +34,6 @@ let form = document.querySelector("#registerForm");
             }
         });
     }
+});
+
+

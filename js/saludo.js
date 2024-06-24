@@ -1,18 +1,20 @@
-function saludoUsuario() {
-    const emailUsuario = localStorage.getItem("emailUsuario");
-    const headers = document.querySelectorAll('.Inicio'); 
-    
-    if (emailUsuario) {
-        headers.forEach(Inicio => {
-            Inicio.innerHTML += `<p>Bienvenido: ${emailUsuario}</p>`;
+window.addEventListener("load", function() {
+    let emailUsuario = localStorage.getItem("emailUsuario");
 
-        });
-    }  else {
-        const loginRegisterLinks = document.querySelectorAll(".loginRegister");
-        for (let i = 0; i < loginRegisterLinks.length; i++) {
-            loginRegisterLinks[i].style.display = 'none';
+    if (emailUsuario) {
+        let link = '<a href="#" id="logout">logout</a>';
+        
+        let bienvenidaDiv = document.querySelector(".bienvenida");
+        if (bienvenidaDiv) {
+            bienvenidaDiv.innerHTML = "Bienvenido: " + emailUsuario + " " + link;
+        }
+
+        let Links = document.querySelectorAll(".loginRegister");
+        if (Links.length > 0 ) {
+            Links[0].style.display = 'none';
+            Links[1].style.display = 'none';
         }
     }
-}
 
-window.onload = saludoUsuario;
+    console.log(localStorage);
+});
