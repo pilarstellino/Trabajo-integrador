@@ -1,4 +1,4 @@
-window.addEventListener("DOMContentLoadea", function() {
+window.addEventListener("load", function() {
     console.log("saludo.js se está ejecutando");
     let emailUsuario = localStorage.getItem("emailUsuario");
 
@@ -17,6 +17,13 @@ window.addEventListener("DOMContentLoadea", function() {
                 Links[i].style.display = 'none';
             }
         }
+
+        let logoutLink = document.getElementById("logout");
+        logoutLink.addEventListener("click", function(event) {
+            event.preventDefault(); 
+            console.log("Enlace de logout ha sido clickeado");
+
+        });
     }
 
     console.log(localStorage);
