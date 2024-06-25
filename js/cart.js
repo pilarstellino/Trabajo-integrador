@@ -13,7 +13,7 @@ finalizado.addEventListener("click", function(event){
 })
 
 if (recuperoCarrito == null) { 
-    seccion.innerText = "Su carrito está vacío :(";
+    seccion.innerText = "Su carrito está vacío";
     seccion.style.fontSize = "25px"
     seccion.style.fontStyle = "italic"
     seccion.style.textAlign = "center"

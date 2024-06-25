@@ -1,76 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head class="Inicio">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../Trabajo-integrador/css/style.css">
-    <div class="bienvenida"></div>
+    <title>Home Page</title>
+    <link href="./css/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
 </head>
+
 <body>
-    <div class="divsection1">
-        <a href="../Trabajo-integrador/index.html">
-            <ul>
-                <h4 class="logodivgeneral"> <i class="fa-solid fa-bolt"></i> HOME</h4>
-            </ul>
-        </a>
-        <a href="../Trabajo-integrador/producto.html">
-            <ul>
-                <h4 class="logodivgeneral"> <i class="fa-solid fa-bolt"></i> DETALLE DE PRODUCTO</h4>
-            </ul>
-        </a>
-        <a href="../Trabajo-integrador/cart.html">
-            <ul>
-                <h4 class="logodivgeneral"> <i class="fa-solid fa-bolt"></i> CARRITO</h4>
+    <header>
 
-            </ul>
-        </a>
-        <a href="../Trabajo-integrador/womenclothes.html">
-            <ul>
-                <h4 class="logodivgeneral"> <i class="fa-solid fa-bolt"></i> ROPA DE MUJER</h4>
+        <section class="main_header">
+                <i class="fa-solid fa-bag-shopping bolsa"></i>
 
-            </ul>
-        </a>
-        <a href="../Trabajo-integrador/menclothes.html">
-            <ul>
-                <h4 class="logodivgeneral"> <i class="fa-solid fa-bolt"></i> ROPA DE HOMBRE</h4>
+    </header>
 
-            </ul>
-        </a>
-        <a href="../Trabajo-integrador/accesories.html">
-            <ul>
-                <h4 class="logodivgeneral"> <i class="fa-solid fa-bolt"></i> ACCESORIOS</h4>
-
-            </ul>
-        </a>
-        <a href="../Trabajo-integrador/">
-            <ul>
-                <h4 class="logodivgeneral"> <i class="fa-solid fa-bolt"></i> ELECTRONICA</h4>
-
-            </ul>
-        </a>
-    </div>
-    <div class="carrito">
-        <h1>Carrito de Compras</h1>
-    </div>
-    
-    <ul class="productos"></ul>
-    <div class="contenedorpadre">
-        <li class="producto">
-            <img src="../Trabajo-integrador/img/Winter Hoodie.png" alt="Sudadera Oscar Heart">
-            <div class="descripcion">
-                <a href="../Trabajo-integrador/producto.html"><p class="Nombre">Sudadera Oscar Heart</p></a>
-                <p class="Precio">EUR 215</p>
-                <button>ELIMINAR</button>
-            </div>
-        </li>
-    </div>
-    <script src="./js/saludo.js"></script>
-
+    <main>
+        <h3 class="centrado">Carrito de compras</h3>
+        <section class="bloque-carrito" id="listado">
+            
+        </section>
+        <button class="finalizar-compra">Finalizar compra</button>
+    </main>
+             
     <footer class="nombres">
         <h3>Pilar Stellino & Luzmila Centurion <br> Zadig&Voltaire</h3>
     </footer>
+
     <script src="./js/cart.js"></script>
+    <script src="./js/saludo.js"></script>
+
 </body>
 </html>
