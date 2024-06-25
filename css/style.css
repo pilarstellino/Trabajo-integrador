@@ -17,11 +17,10 @@
            .logo{
             position: relative; 
           display: block;
-         
          margin: 0 auto;
          height: auto;
+         
           }
-
    
 .headerlow {
     background-color: rgb(55, 55, 55);
@@ -386,4 +385,15 @@ body.forms{
     font-weight: bold;
     margin: 4px 2px; 
 }
+.bienvenida {
+    text-align: center;
+    position:relative;
+}
 
+@media (max-width: 767px) {
+    .bienvenida {
+        font-size: 18px; 
+        text-align: left; 
+        padding-right: 40px; 
+    }
+}
